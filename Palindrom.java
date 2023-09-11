@@ -10,16 +10,16 @@ public class Palindrom {
 
         int temp  = Num;
 
-        int Reverse = 0;
+        int Reverse1 = 0;
         while(Num!= 0){
             int Mod = Num % 10;
-            Reverse = Reverse*10 +Mod;
+            Reverse1 = Reverse1*10 +Mod;
             Num = Num/10;
         }
-        if(temp == Reverse){
-            System.out.printf("% is a Parlindrom Number..",temp);
+        if(temp == Reverse1){
+            System.out.printf("%d is a Parlindrom Number..\n",temp);
         }else {
-            System.out.printf("% is not a ParlinDrome Number",temp);
+            System.out.printf("%d is not a ParlinDrome Number\n",temp);
         }
 
         
