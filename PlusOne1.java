@@ -17,7 +17,9 @@ public class PlusOne1 {
         }
         num = new int[num.length +1];
         num[0] = 1;
-        return;
+        for(int j=0;j< num.length;j++){
+            System.out.println(num[j]);
+        }
         
         
     }
