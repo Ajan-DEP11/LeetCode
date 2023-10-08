@@ -14,9 +14,11 @@ public class BinarySearch {
             int end = num.length -1;
             
 
-            while(true){
+            while(start <= end){
                 if(start >= end)break;
+
                 int middle = (start+end)/2;
+
                 if(num[middle]==search){
                     System.out.println("search found at: "+ middle);
                     continue loop;
